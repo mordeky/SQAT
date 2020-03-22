@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en>
+<link rel="stylesheet" href="../_sass/minima/_layout.scss">
+</html>" }}">
+
+{%- include head.html -%}
+
+<body>
+
+{%- include chapter-header.html -%}
+
+<main class="page-content" aria-label="Content">
+    <div class="wrapper">
+        <img id='chap_fold_img' hspace=1 border=0
+             src="/assets/img/fold.gif" class='fold-image' align='left'/>
+        <span class="nav-book-title">
+             {{ site.title | escape }}
+        </span>
+        <div id=chapter_nav_div style="display: none">
+            <ul>
+                {% assign sorted_chapters = site.chapters | sort: "chapter-number" %}
+                {% for chapter in sorted_chapters %}
+                {% if chapter.hidden != true %}
+                <li>
+                    <a href="{{ chapter.url | relative_url }}" target="_blank">
+					Chapter {{ chapter.chapter-number }} - {{ chapter.title }}
+					</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <!--<nav></nav>-->
+        </div>
+    </div>
+
+    <div class="wrapper">
+
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <!--<header class="post-header">
+              <h1 class="post-title p-name" itemprop="name headline">Chapter {{ page.chapter-number }} - {{ page.title | escape }}</h1>-->
+            <p class="post-meta">
+                {%- if page.author -%}
+                • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+				<span class="p-author h-card" itemprop="name">by {{ page.author }}</span></span>
+                {%- endif -%}</p>
+            <!--</header>-->
+
+            <div id="toc-content-wrapper">
+                <div id="content" class="post-content e-content" itemprop="articleBody">
+                    {{ content }}
+                </div>
+
+                <div class="sidebar toc">
+                    {% include toc.html html=content class="section-nav"%}
+                </div>
+            </div>
+
+            {%- if site.disqus.shortname -%}
+            {%- include disqus_comments.html -%}
+            {%- endif -%}
+
+
+            <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+        </article>
+
+    </div>
+</main>
+{%- include footer.html -%}
+
+</body>
+</html>
