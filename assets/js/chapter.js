@@ -53,11 +53,11 @@ function toggleChapter() {
 	var chap_fold_img = document.getElementById('chap_fold_img')
 	if (chapter_nav_div.style.display == 'none') {
 		chapter_nav_div.style.display = 'block';
-		chap_fold_img.src = '{{ site.title }}/assets/img/unfold.gif'
+		chap_fold_img.src = '{{ site.baseurl }}/assets/img/unfold.gif'
 	}
 	else {
 		chapter_nav_div.style.display = 'none';
-		chap_fold_img.src = '{{ site.title }}/assets/img/fold.gif'
+		chap_fold_img.src = '{{ site.baseurl }}/assets/img/fold.gif'
 	}
 }
 
