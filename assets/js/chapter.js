@@ -1,4 +1,6 @@
 // Function to show the div after the button, which is the answer to a question.
+var base_url = '/SQAT'
+
 function showAnswer(e) {
   // Get the div
   var answer = e.target.nextElementSibling
@@ -53,11 +55,11 @@ function toggleChapter() {
 	var chap_fold_img = document.getElementById('chap_fold_img')
 	if (chapter_nav_div.style.display == 'none') {
 		chapter_nav_div.style.display = 'block';
-		chap_fold_img.src = '{{ site.baseurl }}/assets/img/unfold.gif'
+		chap_fold_img.src = base_url + '/assets/img/unfold.gif'
 	}
 	else {
 		chapter_nav_div.style.display = 'none';
-		chap_fold_img.src = '{{ site.baseurl }}/assets/img/fold.gif'
+		chap_fold_img.src = base_url + '/assets/img/fold.gif'
 	}
 }
 
