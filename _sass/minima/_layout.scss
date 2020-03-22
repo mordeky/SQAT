@@ -249,6 +249,7 @@ $toc-collapse: calc(#{$content-width} + (2 * #{$toc-width}) + #{$spacing-unit});
 }
 
 .nav-book-title {
+  cursor: pointer;
   font-size:12.5pt;
   font-family:"Arial",sans-serif;
   font-weight:bold;color:blue;

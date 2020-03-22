@@ -73,4 +73,6 @@ window.onload = function () {
   
   var chap_fold_img = document.getElementById('chap_fold_img')
   chap_fold_img.onclick = toggleChapter
+  var sqat_book_title = document.getElementById('sqat_book_title')
+  sqat_book_title.onclick = toggleChapter
 }
