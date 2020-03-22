@@ -20,7 +20,7 @@ email: mordekai@zjut.edu.cn
 # description: >- # this means to ignore newlines until "baseurl:"
   # Software Testing: From Theory to Practice
 baseurl: "/SQAT" # the subpath of your site, e.g. /blog
-url: "https://mordeky.github.io/SQAT" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
