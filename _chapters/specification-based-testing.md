@@ -74,7 +74,7 @@ Note how each class above exercise the program in different ways.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kSLbxmXcPPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <center>Slide in this video <strong>
-<a href="/video-slides/chapter4-specification-based-testing/02-partitioning.pptx">
+<a href="{{ site.baseurl }}/video-slides/chapter4-specification-based-testing/02-partitioning.pptx">
 (.pptx).</a></strong></center>
 
 ### Equivalence partitioning
@@ -192,7 +192,7 @@ After the method returns a value we assert that this is the expected value.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mXmFiiifwaE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <center>Slide in this video <strong>
-<a href="/video-slides/chapter4-specification-based-testing/03-leap-year-code.pptx">
+<a href="{{ site.baseurl }}/video-slides/chapter4-specification-based-testing/03-leap-year-code.pptx">
 (.pptx).</a></strong></center>
 
 ## Category-Partition Method
@@ -252,7 +252,7 @@ Each of the test cases corresponds to one of the partitions that we want to test
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/frzRmafsPBk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <center>Slide in this video <strong>
-<a href="/video-slides/chapter4-specification-based-testing/08-category-partition.pptx">
+<a href="{{ site.baseurl }}/video-slides/chapter4-specification-based-testing/08-category-partition.pptx">
 (.pptx).</a></strong></center>
 
 ## One more example of specification-based testing
@@ -295,7 +295,7 @@ fully understand the problem!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T8caAUwgquQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <center>Slide in this video <strong>
-<a href="/video-slides/chapter4-specification-based-testing/04-chocolate-boundary-testing.pptx">
+<a href="{{ site.baseurl }}/video-slides/chapter4-specification-based-testing/04-chocolate-boundary-testing.pptx">
 (.pptx).</a></strong></center>
 
 ## Random testing vs specification-based testing

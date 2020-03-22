@@ -104,6 +104,6 @@ And that is what we are going to focus throughout this course. Hopefully, with e
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xtLgp8LXWp8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <center>Slide in this video <strong>
-<a href="/video-slides/chapter1-why-software-testing/01-motivation.pptx">
+<a href="{{ site.baseurl }}/video-slides/chapter1-why-software-testing/01-motivation.pptx">
 (.pptx).</a>
 </strong></center>

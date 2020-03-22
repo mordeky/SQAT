@@ -41,7 +41,7 @@ Combining both these principles we could give our method `MDCCCXLII` and it shou
 <iframe width="560" height="315" src="https://www.youtube.com/embed/srJ91NRpT_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <center>Slide in this video <strong>
-<a href="/video-slides/chapter2-software-testing-automation/02-roman-numeral.pptx">
+<a href="{{ site.baseurl }}/video-slides/chapter2-software-testing-automation/02-roman-numeral.pptx">
 (.pptx).</a>
 </strong></center>
 
@@ -167,7 +167,7 @@ Do you see more test cases? Go ahead and implement them!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XS4-93Q4Zy8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <center>Slide in this video <strong>
-<a href="/video-slides/chapter2-software-testing-automation/03-systematic-sw-testing.pptx">
+<a href="{{ site.baseurl }}/video-slides/chapter2-software-testing-automation/03-systematic-sw-testing.pptx">
 (.pptx).</a></strong></center>
 
 ## The need for systematic software testing
@@ -186,7 +186,7 @@ to test software.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xyV5fZsUH9s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <center>Slide in this video <strong>
-<a href="/video-slides/chapter2-software-testing-automation/04-design-vs-automation.pptx">
+<a href="{{ site.baseurl }}/video-slides/chapter2-software-testing-automation/04-design-vs-automation.pptx">
 (.pptx).</a></strong></center>
 
 ## An introduction to test code quality

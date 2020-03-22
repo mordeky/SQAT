@@ -36,7 +36,7 @@ This then creates a fault in the code, which can result in a failure.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zAty8Rpg92I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <center>Slide in this video <strong>
-<a href="/video-slides/chapter3-testing-principles/07-error-fault-failure.pptx">
+<a href="{{ site.baseurl }}/video-slides/chapter3-testing-principles/07-error-fault-failure.pptx">
 (.pptx).</a></strong></center>
 
 ## Verification and Validation
@@ -61,7 +61,7 @@ However, validation is also very important when it comes to building successful 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LZ3Fb2Jq7yw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <center>Slide in this video <strong>
-<a href="/video-slides/chapter3-testing-principles/08-validation-verification.pptx">
+<a href="{{ site.baseurl }}/video-slides/chapter3-testing-principles/08-validation-verification.pptx">
 (.pptx).</a></strong></center>
 
 ## Tests, tests and more tests
@@ -108,7 +108,7 @@ We cannot forget about the validation part, where we check if the software meets
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dkbvb_wTN-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <center>Slide in this video <strong>
-<a href="/video-slides/chapter3-testing-principles/09-enough-testing.pptx">
+<a href="{{ site.baseurl }}/video-slides/chapter3-testing-principles/09-enough-testing.pptx">
 (.pptx).</a></strong></center>
 
 ## References
