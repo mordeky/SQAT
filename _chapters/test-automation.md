@@ -6,6 +6,8 @@ toc: true
 author: Maurício Aniche
 ---
 
+<div class='mycounter'></div>
+
 ## Getting started with test automation
 
 Before we explore different testing techniques, let's first get used
@@ -288,6 +290,7 @@ Side note 2: In industry, the term _automated software testing_ is related to th
 * Pragmatic Unit Testing in Java 8 with Junit. Langr, Hunt, and Thomas. Pragmatic Programmers, 2015.
 
 ## Exercises
+<div class='mycounter'></div>
 
 {% include exercise-begin.html %}
 

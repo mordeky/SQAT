@@ -6,6 +6,8 @@ toc: true
 author: Maurício Aniche
 ---
 
+<div class='mycounter'></div>
+
 ## Introduction
 
 Now that we know how to use mocks and what we can use them for, 
@@ -168,6 +170,7 @@ Note how there is a [deep synergy between well design production code and testab
 
 ## Exercises
 
+<div class='mycounter'></div>
 
 {% include exercise-begin.html %}
 How can we improve the testability of the `OrderDeliveryBatch` class?

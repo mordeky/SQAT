@@ -6,6 +6,8 @@ toc: true
 author: Maurício Aniche
 ---
 
+<div class='mycounter'></div>
+
 ## Introduction
 
 When unit testing a piece of code, we want to test it in isolation.
@@ -206,6 +208,8 @@ Mocks are a useful tool when it comes to write real isolated unit tests.
 
 
 ## Exercises
+
+<div class='mycounter'></div>
 
 {% include exercise-begin.html %}
 

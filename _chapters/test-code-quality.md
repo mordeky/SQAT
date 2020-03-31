@@ -6,6 +6,8 @@ toc: true
 author: Maurício Aniche
 ---
 
+<div class='mycounter'></div>
+
 ## Introduction
 
 You probably noticed that the amount of JUnit automated test cases that we
@@ -381,6 +383,7 @@ Link: https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.ht
 - Fowler, M. Eradicating Non-Determinism in Tests. Link: https://martinfowler.com/articles/nonDeterminism.html, 2011.
 
 ## Exercises
+<div class='mycounter'></div>
 
 {% include exercise-begin.html %}
 

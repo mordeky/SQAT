@@ -6,6 +6,8 @@ toc: true
 author: Maurício Aniche
 ---
 
+<div class='mycounter'></div>
+
 We have studied different techniques to derive test cases. More specifically, 
 specification-based, structural-based, and model-based techniques.
 However, most of requirements we tested via specification-based techniques had a single responsibility. Most of the source code
@@ -166,6 +168,7 @@ We will discuss design for testability in future chapters.
 
 ## Exercises
 
+<div class='mycounter'></div>
 
 {% include exercise-begin.html %}
 Now we have a skeleton for the testing pyramid.

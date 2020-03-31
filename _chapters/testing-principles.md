@@ -6,6 +6,8 @@ toc: true
 author: Maurício Aniche and Arie van Deursen
 ---
 
+<div class='mycounter'></div>
+
 Now that we have some basic tools to design and automate our tests, we can think more about some testing concepts.
 We start with some precise definitions for certain terms.
 
@@ -117,6 +119,7 @@ We cannot forget about the validation part, where we check if the software meets
 
 
 ## Exercises
+<div class='mycounter'></div>
 
 {% include exercise-begin.html %}
 Having a certain terminology helps testers to explain the problems they have with a program or in their software.

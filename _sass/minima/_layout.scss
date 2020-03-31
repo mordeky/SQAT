@@ -266,7 +266,7 @@ $toc-collapse: calc(#{$content-width} + (2 * #{$toc-width}) + #{$spacing-unit});
 /* Added by Xiao-Xin Li */
 .mycounter {
   /*display: none;*/ /* 不能让display为None, 否则计数器不起作用*/
-  counter-reset: exercise;
+  counter-reset: eecounter;
 }
 
 .answer {
@@ -355,8 +355,8 @@ $toc-collapse: calc(#{$content-width} + (2 * #{$toc-width}) + #{$spacing-unit});
   
   /* added by Xiao-Xin Li */
   h4:after {
-    counter-increment: exercise; /* 自动将计数器加 1 */
-    content: " " counter(exercise); /* 获取计数器值，把它填写在 content 中 */
+    counter-increment: eecounter; /* 自动将计数器加 1 */
+    content: " " counter(eecounter); /* 获取计数器值，把它填写在 content 中 */
   }
 }
 

@@ -6,6 +6,8 @@ toc: true
 author: Arie van Deursen
 ---
 
+<div class='mycounter'></div>
+
 Can the production code test itself?
 In this chapter, we'll discuss what design by contracts and
 property-based testing are.
@@ -709,7 +711,7 @@ We will discuss more about AI techniques in a future chapter.
 
 
 ## Exercises
-
+<div class='mycounter'></div>
 
 {% include exercise-begin.html %}
 

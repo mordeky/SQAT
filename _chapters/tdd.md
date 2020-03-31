@@ -6,6 +6,8 @@ toc: true
 author: Maurício Aniche
 ---
 
+<div class='mycounter'></div>
+
 ## Introduction
 
 We are used to write some production code and, once we are finished, we move to writing the tests.
@@ -180,6 +182,7 @@ Conclusion: Developers believe that the practice of test-driven development help
 
 ## Exercises
 
+<div class='mycounter'></div>
 
 {% include exercise-begin.html %}
 We have the following skeleton for a diagram illustrating the Test Driven Development cycle.

@@ -6,6 +6,8 @@ toc: true
 author: Maurício Aniche
 ---
 
+<div class='mycounter'></div>
+
 ## Motivation
 
 **Welcome to the first chapter of {{ site.title }}!** In this book, we are going to teach you how to effectively test a 

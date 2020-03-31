@@ -6,6 +6,8 @@ author: Annibale Panichella
 toc: true
 ---
 
+<div class='mycounter'></div>
+
 How do we know if we tested enough?
 For example, in the structural-based testing chapter, we discussed line coverage, branch coverage, and MC/DC.
 In the model-based testing chapter, we discussing transition coverage and path coverage.
@@ -625,6 +627,7 @@ Finally, you can also see more detailed results in the source code and check whi
 
 ## Exercises
 
+<div class='mycounter'></div>
 
 {% include exercise-begin.html %}
 

@@ -6,6 +6,8 @@ toc: true
 author: Arie van Deursen
 ---
 
+<div class='mycounter'></div>
+
 In model based testing, we use models of the system to derive tests.
 In this chapter we briefly show what a model is (or can be), and go over some of the models used in software testing.
 The two models covered in this chapter are decision tables and state machines.
@@ -904,6 +906,8 @@ to send a notification of a message. Impressive, isn't it?
 * van Deursen, A. (2015). Beyond Page Objects: Testing Web Applications with State Objects. ACM Queue, 13(6), 20.
 
 ## Exercises
+
+<div class='mycounter'></div>
 
 Here you find some exercises to practise the material of this chapter with.
 For each of the exercises the answers are provided directly beneath the question.

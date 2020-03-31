@@ -6,6 +6,8 @@ toc: true
 author: Maurício Aniche
 ---
 
+<div class='mycounter'></div>
+
 ## Introduction
 
 In this chapter, we explore **specification-based testing** techniques.
@@ -320,7 +322,7 @@ you will learn more about automated random testing.
 
 ## Exercises
 
-
+<div class='mycounter'></div>
 
 {% include exercise-begin.html %}
 What is an Equivalence Partition?
