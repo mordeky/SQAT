@@ -88,7 +88,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
-
+/* by Mordeky */
+h3 {
+	counter-reset: exercise;
+}
+h4:after {
+	counter-increment: exercise; /* 自动将计数器加 1 */
+	content: counter(exercise); /* 获取计数器值，把它填写在 content 中 */
+}
 
 /**
  * Links

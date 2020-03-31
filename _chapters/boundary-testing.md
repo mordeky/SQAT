@@ -152,6 +152,9 @@ Now we have derived the six test cases that we can use to test the boundaries.
 {% include example-end.html %}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rPcMJg62wM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center>Slide in this video <strong>
+<a href="{{ site.baseurl }}/video-slides/chapter5-boundary-testing/07-boundary-analysis.pptx">
+(.pptx).</a></strong></center>
 
 ## Boundaries that are not so explicit
 
@@ -237,7 +240,9 @@ A partition might make boundaries with other partitions. See:
 Your lesson is: explore the boundaries in between your partitions!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uP_SpXtHxoQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<center>Slide in this video <strong>
+<a href="{{ site.baseurl }}/video-slides/chapter5-boundary-testing/05-chocolate-boundary.pptx">
+(.pptx).</a></strong></center>
 
 ## Automating boundary testing with JUnit (via Parameterized Tests)
 
@@ -293,7 +298,9 @@ From the values you can see that each of the six test cases corresponds to one o
 {% include example-end.html %}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fFksNXJJfiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<center>Slide in this video <strong>
+<a href="{{ site.baseurl }}/video-slides/chapter5-boundary-testing/06-parameterized-tests.pptx">
+(.pptx).</a></strong></center>
 
 ## The CORRECT way
 
@@ -342,6 +349,9 @@ Authors call it the **CORRECT** way, as each letter represents one boundary cond
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oxNEUYqEvzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center>Slide in this video <strong>
+<a href="{{ site.baseurl }}/video-slides/chapter5-boundary-testing/09-correct.pptx">
+(.pptx).</a></strong></center>
 
 ## Short summary
 
