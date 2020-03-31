@@ -6,7 +6,7 @@ toc: true
 author: Maurício Aniche and Arie van Deursen
 ---
 
-<div class="exercisecounter"></div>
+<div class='mycounter'></div>
 
 ## Introduction
 
@@ -367,7 +367,7 @@ Authors call it the **CORRECT** way, as each letter represents one boundary cond
 * Chapter 7 of Pragmatic Unit Testing in Java 8 with Junit. Langr, Hunt, and Thomas. Pragmatic Programmers, 2015.
 
 ## Exercises
-<div class="exercisecounter"></div>
+<div class='mycounter'></div>
 
 {% include exercise-begin.html %}
 We have the following method.

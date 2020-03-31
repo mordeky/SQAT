@@ -264,8 +264,8 @@ $toc-collapse: calc(#{$content-width} + (2 * #{$toc-width}) + #{$spacing-unit});
 }
 
 /* Added by Xiao-Xin Li */
-.exercisecounter {
-  display: none;
+.mycounter {
+  /*display: none;*/ /* 不能让display为None, 否则计数器不起作用*/
   counter-reset: exercise;
 }
 
