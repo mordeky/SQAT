@@ -332,6 +332,15 @@ $toc-collapse: calc(#{$content-width} + (2 * #{$toc-width}) + #{$spacing-unit});
     margin-top: -$spacing-unit * 1.865 + 10;
     visibility: hidden;
   }
+  
+  /* by Mordeky */
+  h3 {
+      counter-reset: exercise;
+  }
+  h4:after {
+    counter-increment: exercise; /* 自动将计数器加 1 */
+    content: " 0" counter(exercise); /* 获取计数器值，把它填写在 content 中 */
+  }
 }
 
 table {
