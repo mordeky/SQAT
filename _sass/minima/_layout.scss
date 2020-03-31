@@ -195,7 +195,6 @@ $toc-collapse: calc(#{$content-width} + (2 * #{$toc-width}) + #{$spacing-unit});
 }
 
 
-
 /**
  * Page content
  */
@@ -258,18 +257,16 @@ $toc-collapse: calc(#{$content-width} + (2 * #{$toc-width}) + #{$spacing-unit});
 /**
  * Examples and Exercises/Answers
  */
-.example {
+.example .exercise {
   background-color: #efefef;
   padding: 10px;
   margin-bottom: 10px;
-  counter-reset: none; /* by Xiao-Xin Li */
 }
 
-.exercise {
-  background-color: #efefef;
-  padding: 10px;
-  margin-bottom: 10px;
-  counter-reset: exercise; /* by Xiao-Xin Li */
+/* Added by Xiao-Xin Li */
+.exercisecounter {
+  display: none;
+  counter-reset: exercise;
 }
 
 .answer {

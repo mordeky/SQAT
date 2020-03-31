@@ -6,6 +6,7 @@ toc: true
 author: Maurício Aniche
 ---
 
+<div class="exercisecounter"></div>
 
 ## Introduction
 
@@ -600,7 +601,7 @@ Watch a summary of one of our lectures in structural testing!
 
 
 ## Exercises
-
+<div class="exercisecounter"></div>
 For the first couple of exercises we use the following code:
 
 ```java
