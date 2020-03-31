@@ -256,6 +256,29 @@ $toc-collapse: calc(#{$content-width} + (2 * #{$toc-width}) + #{$spacing-unit});
 }
 
 /**
+ * Examples and Exercises/Answers
+ */
+.example {
+  background-color: #efefef;
+  padding: 10px;
+  margin-bottom: 10px;
+  counter-reset: none; /* by Xiao-Xin Li */
+}
+
+.exercise {
+  background-color: #efefef;
+  padding: 10px;
+  margin-bottom: 10px;
+  counter-reset: exercise; /* by Xiao-Xin Li */
+}
+
+.answer {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/**
  * Posts
  */
 .post-header {
@@ -291,8 +314,6 @@ $toc-collapse: calc(#{$content-width} + (2 * #{$toc-width}) + #{$spacing-unit});
     @include media-query($on-laptop) {
       @include relative-font-size(1.75);
     }
-	
-	counter-reset: exercise; /* by Mordeky */
   }
 
   h2::before {
@@ -335,10 +356,10 @@ $toc-collapse: calc(#{$content-width} + (2 * #{$toc-width}) + #{$spacing-unit});
     visibility: hidden;
   }
   
-  /* by Mordeky */
+  /* added by Xiao-Xin Li */
   h4:after {
     counter-increment: exercise; /* 自动将计数器加 1 */
-    content: " 0" counter(exercise); /* 获取计数器值，把它填写在 content 中 */
+    content: " " counter(exercise); /* 获取计数器值，把它填写在 content 中 */
   }
 }
 
@@ -353,20 +374,6 @@ tbody {
   border: 1px solid #e8e8e8;
 }
 
-/**
- * Examples and Exercises/Answers
- */
-.example, .exercise {
-  background-color: #efefef;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.answer {
-  background-color: #e0e0e0;
-  padding: 10px;
-  margin-top: 10px;
-}
 
 /**
  * Table of Contents
